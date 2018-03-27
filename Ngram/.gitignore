@@ -1,0 +1,9 @@
+*.pyc
+*.wpu
+*.egg-info
+__pycache__
+/build
+/dist
+/docs/_build
+/.tox
+.cache
