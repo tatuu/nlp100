@@ -1,4 +1,5 @@
 import os
+import commands
 
 name = os.path.dirname(os.path.abspath(__name__))
 
@@ -33,3 +34,5 @@ path3 = os.path.normpath(joined_path3)
 f3 = open(path3, 'w', encoding="utf-8_sig")
 f3.writelines(temp)
 f3.close()
+
+check = commands.getoutput("comfirm_13.sh")

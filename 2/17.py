@@ -17,7 +17,8 @@ c1 = []
 for i in lines:
     temp = []
     temp = i.split()
-    c1.append(temp[0] + "\n")
+    if temp[0] + "\n" not in c1:
+        c1.append(temp[0] + "\n")
 
 for j in c1:
     print(j, end="")
